@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<title>Shades</title>
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="Shades" content="shows available shades">
+		<!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+  <![endif]-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="Final Project CSS.css">		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){ 
+    $('.myselect').change(function() {
+        var opval = $(this).val(); 
+        if(opval==""){ 
+            $('#myModal').modal("show");
+        }
+    });
+});
+		</script>
+		<style>
+		header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+			img {
+				position: absolute;
+				display: inline;
+				}
+			body{
+				background-image:url(images/shades.jpg);
+				background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+				}
+				
+			h3{
+				font-family: "Brush Script MT", cursive;
+				font-size:3vw;
+			}
+			.modal-title{
+				position: absolute;
+				font-family: "Brush Script MT", cursive;
+				font-weight:bold;
+				font-size:2vw;
+				width: 50px;
+				height: 50px;  
+				left: 40%;
+				opacity:0.8;   
+				}
+			.modal-body{
+				position: absolute;
+				font-family: "Brush Script MT", cursive;
+				font-weight:bold;
+					font-size:2vw;
+					
+					left: 20%;
+				opacity:0.8;   
+				}
+		</style>
+	</head>
+	
+	<body background-image>
+		<div id="nav"><br>
+		
+			<div id="nav_wrapper"><br>
+			
+				<ul>
+					<li class="active"><a href="Main Page.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Watches.html">Watches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Shades.html">Shades&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Clothes.html">Clothes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Sizechart.html">Size Chart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Registration.html">Register&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Aboutus.html">About us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="Contactus.html">Contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<h3 align="center" style="color:#800000; ">Featured Collections</h3>
+		<ul class="block-grid columns3 collection-th collection-list">
+		<img style="margin-left:20px;" height="200" src="images/shade.jpg">
+		<img style="margin-left:470px; " height="200" src="images/shade1.jpg">
+		<img style="margin-left:850px; " height="200" src="images/shade2.jpg">
+		<br><br><br><br>
+		</ul>
+		<select  class="myselect" style="margin-left:25px; margin-top:180px;">
+			<option value="">49-53MM: ADULT SMALL TO MEDIUM RANGE</option>
+			<option value="">54MM-61MM: ADULT LARGE</option>
+			<option value="">62MM+: ADULT X-LARGE</option>
+		</select>
+	
+		<select  class="myselect" style="margin-left:115px; margin-top:180px;">
+			<option value="">49-53MM: ADULT SMALL TO MEDIUM RANGE</option>
+			<option value="">54MM-61MM: ADULT LARGE</option>
+			<option value="">62MM+: ADULT X-LARGE</option>
+		</select>
+		<select  class="myselect" style="margin-left:55px; margin-top:180px;">
+			<option value="">49-53MM: ADULT SMALL TO MEDIUM RANGE</option>
+			<option value="">54MM-61MM: ADULT LARGE</option>
+			<option value="">62MM+: ADULT X-LARGE</option>
+		</select>
+		
+		<br><br><br><br><br><br><br><br>
+		<img style="margin-left:30px; " height="200" src="images/shade3.jpg">
+		<img style="margin-left:460px; " height="200" src="images/shade4.jpg">
+		<br><br><br><br>
+		<select  class="myselect" style="margin-left:25px; margin-top:180px;">
+			<option value="">49-53MM: ADULT SMALL TO MEDIUM RANGE</option>
+			<option value="">54MM-61MM: ADULT LARGE</option>
+			<option value="">62MM+: ADULT X-LARGE</option>
+		</select>
+	
+		<select  class="myselect" style="margin-left:100px;">
+			<option value="">49-53MM: ADULT SMALL TO MEDIUM RANGE</option>
+			<option value="">54MM-61MM: ADULT LARGE</option>
+			<option value="">62MM+: ADULT X-LARGE</option>
+		</select>
+		<br><br><br>
+		
+			<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Opps</h4>
+        </div>
+        <div class="modal-body">
+          <p>Our Website Is Not Oficial Yet</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+		</div>
+		
+</body>
+</html>

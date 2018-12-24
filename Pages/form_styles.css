@@ -1,0 +1,56 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+form {width: 40%;
+      margin-right: 30%;
+      margin-left: 30%;
+}     
+.container{
+	
+	text-align:left;
+	background-color:RGBA(163, 173, 184,0.10);
+	width:30%;
+	margin-top:150px;
+    border: none;
+	margin: 0 auto;
+	margin-top:5px;
+}
+
+input {
+	 display: block;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+
+}
+
+#thankyou{
+	text-align: center; margin-top: 150px; color:#00FFFF;
+}
+#checkbox{
+	display: inline-block;
+    width: 15%;
+	text-align: left;
+	color:#00FFFF;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 5px;
+    margin-top: 2%;
+    margin-left: 20%;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+	height:4%;
+	border: 2px solid;
+    border-radius: 25px;
+    position: absolute;
+}
+
