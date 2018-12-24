@@ -1,0 +1,203 @@
+/*Background Image Slider Start*/
+
+@charset "utf-8";
+
+* {
+	margin:0px;
+	padding:0px;
+}
+.content{
+	width:100%;
+	height:100%;
+}
+.backgroundslider{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:-1;	
+}
+.backgroundslider li{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0;
+	animation:imagenes 18s linear infinite;
+	-moz-animation:imagenes 18s linear infinite;
+	-ms-animation:imagenes 18s linear infinite;
+	-o-animation:imagenes 18s linear infinite;
+	-webkit-animation:imagenes 18s linear infinite;
+}
+.backgroundslider li:nth-child(1){
+	background-image:url(image2.jpeg);
+}
+.backgroundslider li:nth-child(2){
+	background-image:url(image.jpg);
+	animation-delay:8s;
+	-moz-animation-delay:8s;
+	-ms-animation-delay:8s;
+	-o-animation-delay:8s;
+	-webkit-animation-delay:8s;
+}
+.backgroundslider li:nth-child(3){
+	background-image:url(image3.jpeg);
+	animation-delay:14s;
+	-moz-animation-delay:14s;
+	-ms-animation-delay:14s;
+	-o-animation-delay:14s;
+	-webkit-animation-delay:14s;
+}
+.backgroundslider li:nth-child(4){
+	background-image:url(image4.jpg);
+	animation-delay:36s;
+	-moz-animation-delay:36s;
+	-ms-animation-delay:36s;
+	-o-animation-delay:36s;
+	-webkit-animation-delay:36s;
+}
+.backgroundslider li:nth-child(5){
+	background-image:url(image5.jpeg);
+	animation-delay:65s;
+	-moz-animation-delay:65s;
+	-ms-animation-delay:65s;
+	-o-animation-delay:65s;
+	-webkit-animation-delay:65s;
+}
+@keyframes imagenes{
+	0%{opacity:0; animation-timing-function:ease-in;  }
+	10% {opacity:1; animation-timing-function:ease-out;  }
+	25% {opacity:1; transform:scale(1);}
+	50%{ opacity:0; transform:scale(2) rotate(20deg);}
+	100%{opacity:0;}
+}
+@-moz-keyframes imagenes{
+	0%{opacity:0; animation-timing-function:ease-in;  }
+	10% {opacity:1; animation-timing-function:ease-out;  }
+	25% {opacity:1; transform:scale(1);}
+	50%{ opacity:0; transform:scale(2) rotate(20deg);}
+	100%{opacity:0;}
+}
+@-o-keyframes imagenes{
+	0%{opacity:0; animation-timing-function:ease-in;  }
+	10% {opacity:1; animation-timing-function:ease-out;  }
+	25% {opacity:1; transform:scale(1);}
+	50%{ opacity:0; transform:scale(2) rotate(20deg);}
+	100%{opacity:0;}
+}
+@-ms-keyframes imagenes{
+	0%{opacity:0; animation-timing-function:ease-in;  }
+	10% {opacity:1; animation-timing-function:ease-out;  }
+	25% {opacity:1; transform:scale(1);}
+	50%{ opacity:0; transform:scale(2) rotate(20deg);}
+	100%{opacity:0;}
+}
+@-webkit-keyframes imagenes{
+	0%{opacity:0; animation-timing-function:ease-in;  }
+	10% {opacity:1; animation-timing-function:ease-out;  }
+	25% {opacity:1; transform:scale(1);}
+	50%{ opacity:0; transform:scale(2) rotate(20deg);}
+	100%{opacity:0;}
+}
+
+/*Background Image Slider Ends*/
+
+/*Navbar Style Starts*/
+/*body {
+	font-family: arial, sans-serif;	
+}*/
+
+details{width: 100%;
+  text-align: left;
+  font-family: "Brush Script MT", cursive;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:2vw;
+  color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  bottom: 1em; }
+footer {
+  width: 100%;
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:2vw;
+  color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  bottom: 1em; }
+
+#nav{
+	
+	width:100%;
+	height:100px;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+}
+#nav_wrapper{
+	
+	height:100px;
+	width:700px;
+	background:#377D7A;	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	opacity:0.7;
+	filter:alpha;(opacity=70);/*have to write for older browser*/
+		
+	
+}
+
+#nav_wrapper ul li{
+	font-family: arial, sans-serif;
+	list-style: none;
+	display:inline;
+	font-weight:bold;
+	padding:15px;
+	
+}
+#nav_wrapper a{
+	color:white;
+	text-decoration:none;
+	padding:10px;
+}
+#nav_wrapper ul li:hover{
+	background: red;
+	transition:all 0.45s;
+	opacity:0.5;
+	filter:alpha;(opacity=50);
+}
+/*Navbar Style ends*/
+
+/*Welcome Text Style */
+.center {
+   position: absolute;
+	display:none;
+	color:white;
+	white-space: nowrap ;
+	font-family: "Brush Script MT", cursive;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:7vw;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 15%;
+opacity:0.8;   
+	}​
+	
+
+/*Welcome Text Style ends */
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
