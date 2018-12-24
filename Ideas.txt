@@ -1,6 +1,0 @@
-enter input and make div show it and have radio button check and sure button which makes the content hide.
-Create a background slide show with clothes
-Fade in on hover
-
-
-Two NAvabars
